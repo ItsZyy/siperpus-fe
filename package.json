@@ -1,0 +1,21 @@
+{
+  "name": "siperpus-fe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend starter Siperpus (Tailwind CSS)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/styles/input.css -o ./public/css/output.css -w",
+    "build": "tailwindcss -i ./src/styles/input.css -o ./public/css/output.css -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
